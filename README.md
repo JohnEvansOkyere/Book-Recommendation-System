@@ -1,1 +1,41 @@
 # Book-Recommendation-System
+
+Here's a more appropriate README section for an ML project:
+
+# How to Run the Machine Learning Project
+
+## Prerequisites
+
+Before running the code, ensure you have:
+
+- Python 3.7+ (recommended 3.8/3.9)
+- pip or conda package manager
+- Recommended: Virtual environment (venv, conda, or virtualenv)
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git https://github.com/JohnEvansOkyere/Book-Recommendation-System.git
+
+```
+
+### 2. Create and Activate Virtual Environment (Recommended)
+
+#### Option 1: Using venv
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+#### Option 2: Using conda
+```bash
+conda create -n ml_project python=3.8
+conda activate ml_project
+```
+
+### 3. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
