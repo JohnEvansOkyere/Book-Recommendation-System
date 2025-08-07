@@ -55,4 +55,24 @@ Write in exception.py - This script gives the line number, file name and specifi
 Move to logger folder-  and write script for log.py - Keeps tracks of all errors in production
 
 6th
-Move to utils - the functions we will be using mostly in development
+Move to utils - the functions we will be using mostly in development, means common functions we will be using, so that I will not have to write the function again and again
+
+7th
+Constant - Getting the paths of config.yaml files
+
+8th
+Config.yaml
+1. Created data ingestion path
+
+9th
+Move to entity file - Return type of input/ Function
+
+10th
+Move to configuration.py - Return variable one-by-one
+
+11th
+Now we start with the ingestion process by moving to data_ingestio.py
+
+12th
+Move to the pipeline folder
+All the process should 
