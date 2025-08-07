@@ -1,6 +1,8 @@
-FROM python:3.7-slim-buster
-
+FROM python:3.9-slim-bullseye
 EXPOSE 8501
+
+# Set environment variables to avoid interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y \
     build-essential \
@@ -9,7 +11,6 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
-
 COPY . /app
 
 RUN pip3 install -r requirements.txt
