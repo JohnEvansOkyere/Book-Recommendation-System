@@ -10,3 +10,7 @@ DataValidationConfig = namedtuple("DatavalidationConfig", ["clean_data_dir",
                                                          "serialized_objects_dir",
                                                          "books_csv_file",
                                                          "ratings_csv_file"])
+
+
+DataTransformationConfig = namedtuple("DataTransformationConfig", ["transformed_data_dir",
+                                                                 "clean_data_file_path"])   

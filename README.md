@@ -89,3 +89,9 @@ All the process should
 13th
 After the pipeline, call the pipeline in main.py
 then run main.py for data extraction
+
+14th
+After ingestion, then data_validation
+
+15th
+Followed by data transformation
