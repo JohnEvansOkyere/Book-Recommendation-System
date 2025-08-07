@@ -48,6 +48,12 @@ conda activate ml_project
 pip install -r requirements.txt
 ```
 
+Now run
+```bash
+streamlit run app.py
+```
+
+
 fisrt
 use template.py to create project structure
 
