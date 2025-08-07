@@ -59,9 +59,8 @@ streamlit run app.py
 ## 1. Login with your AWS console and launch an EC2 instance
 ## 2. Run the following commands
 
-```bash
 Note: Do the port mapping to this port:- 8501
-```
+
 
 ```bash
 sudo apt-get update -y
@@ -99,23 +98,33 @@ docker build -t entbappy/stapp:latest .
 ```bash
 docker images -a  
 ```
+
+```bash
 docker run -d -p 8501:8501 entbappy/stapp 
+```
 
+```bash
 docker ps  
+```
 
+```bash
 docker stop container_id
+```
 
+```bash
 docker rm $(docker ps -a -q)
-
+```
+```bash
 docker login 
-
+```
+```bash
 docker push entbappy/stapp:latest 
-
+```
+```bash
 docker rmi entbappy/stapp:latest
-
+```
+```bash
 docker pull entbappy/stapp
-
-
 ```
 
 
