@@ -39,3 +39,8 @@ conda activate ml_project
 pip install -r requirements.txt
 ```
 
+fisrt
+use template.py to create project structure
+
+second
+write in setup.py to set up your project structure
