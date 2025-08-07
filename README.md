@@ -1,5 +1,14 @@
 # Book-Recommendation-System
 
+## Workflow
+- config.yaml
+- entity
+- config/configuration.py
+- components
+- pipeline
+- main.py
+- app.py
+
 Here's a more appropriate README section for an ML project:
 
 # How to Run the Machine Learning Project
@@ -76,3 +85,7 @@ Now we start with the ingestion process by moving to data_ingestio.py
 12th
 Move to the pipeline folder
 All the process should 
+
+13th
+After the pipeline, call the pipeline in main.py
+then run main.py for data extraction
