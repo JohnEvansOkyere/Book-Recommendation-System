@@ -61,27 +61,44 @@ streamlit run app.py
 
 ```bash
 Note: Do the port mapping to this port:- 8501
+```
 
+```bash
 sudo apt-get update -y
-
+```
+```bash
 sudo apt-get upgrade
+```
 
 #Install Docker
 
+```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
+```
 
+```bash
 sudo sh get-docker.sh
+```
 
+```bash
 sudo usermod -aG docker ubuntu
+```
 
+```bash
 newgrp docker
+```
 
+```bash
 git clone "your-project"
+```
 
+```bash
 docker build -t entbappy/stapp:latest . 
+```
 
+```bash
 docker images -a  
-
+```
 docker run -d -p 8501:8501 entbappy/stapp 
 
 docker ps  
