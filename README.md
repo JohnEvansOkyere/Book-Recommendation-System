@@ -44,3 +44,15 @@ use template.py to create project structure
 
 second
 write in setup.py to set up your project structure
+
+third
+call the setup from setup.py in requirements as -e .
+
+4th
+Write in exception.py - This script gives the line number, file name and specific line of error
+
+5th
+Move to logger folder-  and write script for log.py - Keeps tracks of all errors in production
+
+6th
+Move to utils - the functions we will be using mostly in development
