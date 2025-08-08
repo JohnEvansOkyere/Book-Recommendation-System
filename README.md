@@ -92,7 +92,7 @@ git clone "your-project"
 ```
 
 ```bash
-docker build -t entbappy/stapp:latest . 
+docker build --no-cache -t book-recommendation-system .
 ```
 
 ```bash
@@ -100,7 +100,7 @@ docker images -a
 ```
 
 ```bash
-docker run -d -p 8501:8501 entbappy/stapp 
+docker run -d -p 8501:8501 book-recommendation-system
 ```
 
 ```bash
@@ -118,13 +118,13 @@ docker rm $(docker ps -a -q)
 docker login 
 ```
 ```bash
-docker push entbappy/stapp:latest 
+docker push e8501:8501 book-recommendation-system
 ```
 ```bash
-docker rmi entbappy/stapp:latest
+docker rmi evans1230/book-recommendation-system
 ```
 ```bash
-docker pull entbappy/stapp
+docker pull evans1230/book-recommendation-system
 ```
 
 
