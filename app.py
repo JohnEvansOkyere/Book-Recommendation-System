@@ -67,8 +67,9 @@ class Recommendation:
                         books_list.append(j)
                         
             elif self.model_type == "improved_knn":
-                # Improved KNN model
-                book_pivot = pickle.load(open(self.recommendation_config.book_pivot_serialized_objects, 'rb'))
+                # Improved KNN model - use binary pivot table
+                book_pivot_path = os.path.join(self.recommendation_config.transformed_data_dir, 'transformed_data_binary.pkl')
+                book_pivot = pickle.load(open(book_pivot_path, 'rb'))
                 book_id = np.where(book_pivot.index == book_name)[0][0]
                 distance, suggestion = model_data['model'].kneighbors(book_pivot.iloc[book_id, :].values.reshape(1, -1), n_neighbors=6)
                 
