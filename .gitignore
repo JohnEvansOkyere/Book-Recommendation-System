@@ -40,14 +40,12 @@ venv.bak/
 
 # Data files
 *.csv
-*.pkl
-*.pickle
 *.h5
 *.hdf5
 
 # Model files
-artifacts/trained_model/*.pkl
-artifacts/serialized_objects/*.pkl
+
+
 artifacts/dataset/transformed_data/*.pkl
 
 # Logs
